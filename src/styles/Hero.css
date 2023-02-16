@@ -1,0 +1,23 @@
+.Hero {
+  background-image: url("../assets/hero.jpg");
+  background-size: cover;
+  min-height: max(70vh, 650px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0px;
+  user-select: none;
+}
+
+.Hero p,
+.Hero h1 {
+  color: white;
+  margin: 0px;
+}
+
+.Hero h1 {
+  font-size: 10rem;
+  color: green;
+}

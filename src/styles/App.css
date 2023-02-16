@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.App {
+  border: 2px solid black;
+  border-radius: 5px;
+  min-width: 300px;
+  min-height: 150px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App p {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2rem;
+}
