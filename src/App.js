@@ -1,5 +1,5 @@
-import NavbarDefault from "./components/navbar";
-
+import NavbarDefault from "./components/Navbar";
+import Features from "./components/Features";
 import Hero from "./components/Hero";
 import "./styles/App.css";
 
@@ -8,6 +8,7 @@ function App() {
     <div>
       <NavbarDefault />
       <Hero />
+      <Features />
       {/* <p>Home Page</p> */}
     </div>
   );
