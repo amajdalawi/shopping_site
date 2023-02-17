@@ -3,7 +3,7 @@
   margin: 0px auto;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
+  width: 950px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -17,13 +17,13 @@
   cursor: pointer;
 }
 
-.Navbar navbar {
+.Navbar div {
   display: flex;
   gap: 3rem;
   margin: 1rem;
 }
 
-.Navbar navbar nav {
+.Navbar > div > div {
   font-size: 1.2rem;
   cursor: pointer;
   border-bottom: 4px transparent solid;
@@ -31,7 +31,7 @@
   padding: 0.3rem;
 }
 
-.Navbar navbar nav:hover {
+.Navbar > div > div:hover {
   border-bottom: 4px green solid;
   /* transition: ; */
 }
