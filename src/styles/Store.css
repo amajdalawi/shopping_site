@@ -14,3 +14,56 @@
 .Store hr {
   width: 96%;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.container div {
+  width: 300px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.container img {
+  object-fit: contain;
+  width: 100%;
+  max-height: 300px;
+  padding: 10px;
+}
+
+.container h2,
+.container p {
+  text-align: center;
+}
+
+.container * {
+  user-select: none;
+}
+/* 
+.container a:visited,
+.container a:hover,
+.container a:focus,
+.container a:active,
+.container a {
+  text-decoration: none;
+} */
+
+.buttonContainer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.buttonContainer > button {
+  background-color: white;
+  border: solid green 3px;
+  padding: 0.6rem 0.8rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
